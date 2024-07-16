@@ -4,7 +4,7 @@ const axios = require('axios');
 const app = express();
 const PORT = 9876;
 const WINDOW_SIZE = 10;
-const TEST_SERVER_URL = 'http://20.244.56.144/test/fibo';
+const TEST_SERVER_URL = 'http://20.244.56.144/test/';
 const ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzIxMTQxNTk2LCJpYXQiOjE3MjExNDEyOTYsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjIxMDc1NDg2LTI3NGItNDAwNi1hNGE2LTM3ZDU2ZTY1MjU5ZSIsInN1YiI6IjIyNTAwMzE5OUBzYXN0cmEuYWMuaW4ifSwiY29tcGFueU5hbWUiOiJTYXN0cmEiLCJjbGllbnRJRCI6IjIxMDc1NDg2LTI3NGItNDAwNi1hNGE2LTM3ZDU2ZTY1MjU5ZSIsImNsaWVudFNlY3JldCI6IlllZktIR3RqdkNXSUpFUFciLCJvd25lck5hbWUiOiJNIEtyaXNobmEgS2F1c2hhbCIsIm93bmVyRW1haWwiOiIyMjUwMDMxOTlAc2FzdHJhLmFjLmluIiwicm9sbE5vIjoiMjI1MDAzMTk5In0.P5aUzMC65FnMAUjRgylVEZdO37RMTFokm67ABY55FKw'; // Replace with your actual access token
 
 axios.get(TEST_SERVER_URL, {
